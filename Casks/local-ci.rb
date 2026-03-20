@@ -3,7 +3,7 @@ cask "local-ci" do
   name "local-ci"
   desc "Run Docker-based CI pipelines locally"
   homepage "https://github.com/MrPuls/local-ci"
-  version "0.0.21"
+  version "0.0.22"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "local-ci" do
   on_macos do
     on_intel do
       url "https://github.com/MrPuls/local-ci/releases/download/v#{version}/local-ci_darwin_amd64.zip"
-      sha256 "53a2ee35962cc2d7145485ee422a8fc8e16fa38b10022d0911144a03c4eec8d1"
+      sha256 "c373f1afe7a8b7838924d85e4a150652ab7827499e1d854a0fd2a922155df080"
     end
     on_arm do
       url "https://github.com/MrPuls/local-ci/releases/download/v#{version}/local-ci_darwin_arm64.zip"
-      sha256 "e060bed3005440b42ae6022bbc5545158dba0c4cd5fbd36e93ea4e0827a26ea8"
+      sha256 "03e5e427d9ee975b11e4691f26e2e9c0b2e29c2fc80341b71662dd8fefe64492"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/MrPuls/local-ci/releases/download/v#{version}/local-ci_linux_amd64.zip"
-      sha256 "50dc1d5da9c428ec82fc91dcb0f8470bd2386211e1be8c2af17e452dd049c2d1"
+      sha256 "f2517036eeea0550272500638c5a631164afc5d537e0f9d1428a5a40a4df30a7"
     end
     on_arm do
       url "https://github.com/MrPuls/local-ci/releases/download/v#{version}/local-ci_linux_arm64.zip"
-      sha256 "438f03c3c9fde8f7868bc694f098006b6d4f25d9e9bffae1c88fbf42c900394a"
+      sha256 "54f38b312d29304b187a8458fd9291b7c915c4b3e4261f37810a10d2b6b59ba2"
     end
   end
 
